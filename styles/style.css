@@ -23,6 +23,7 @@
   position: relative;
   display: flex;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .logo {
@@ -96,6 +97,58 @@ background-color: #1f1f1f;
   background-color: #2f80ed;
   z-index: 0;
 }
+
+.techniques{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.cards {
+  list-style: none;
+  width: 920px;
+  display: table;
+  position: relative;
+  left: 0;
+}
+
+.cards__item {
+  width: 240px;
+  margin-right: 100px;
+  padding-top: 60px;
+  float: left;
+}
+
+.cards__image {
+height: 160px;
+width: 160px;
+margin: 0px 40px 43px;
+border-radius: 50%;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.video__iframe {
+  height: 316px;
+  width: 515px;
+  margin-bottom: 100px;
+}
+
 
 .description {
   position: relative;
@@ -243,6 +296,68 @@ background-color: #1f1f1f;
 background: #1f1f1f;
 }
 
+.khan__container {
+width: 80%;
+display: block;
+margin: 100px auto;
+}
+
+.khan__autor {
+line-height: 42px;
+font-size: 30px;
+font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-autor {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  justify-content: space-between;
+  margin: 0 auto 0;
+}
+
+.khan__book-pic {
+width: 608px;
+height: 620px;
+object-fit: cover;
+top: 0;
+left: 0;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__buy-link:hover {
+  background-color: #2f80ed;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -296,6 +411,38 @@ background: #1f1f1f;
   right: -210px;
   background-size: cover;
   z-index: 0;
+}
+
+.resources {
+
+}
+
+.resources__section-title {
+width: 60%;
+margin-top: 100px;
+margin-bottom: 20px;
+}
+
+.resources__section-subtitle {
+  width: 60%;
+  margin-bottom: 80px;
+}
+
+.resources__logo-zone {
+width: 1100px;
+margin: 0 auto 217px;
+}
+
+.resources__link {
+list-style: none;
+display: flex;
+margin: 0 auto;
+}
+
+.resources__logo {
+width: 270px;
+height: 38px;
+float: left;
 }
 
 .footer {
