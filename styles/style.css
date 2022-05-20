@@ -98,27 +98,33 @@ background-color: #1f1f1f;
   z-index: 0;
 }
 
-.techniques{
+.techniques {
   width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 100px auto;
 }
 
+
 .cards {
-  list-style: none;
   width: 920px;
-  display: table;
-  position: relative;
-  left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .cards__item {
   width: 240px;
-  margin-right: 100px;
   padding-top: 60px;
-  float: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 100px 0 0;
+}
+
+.cards__item:nth-child(3n+3) {
+  margin-right: 0;
 }
 
 .cards__image {
@@ -143,12 +149,26 @@ border-radius: 50%;
   text-align: center;
 }
 
+.video {
+margin: 100px auto -50px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .video__iframe {
   height: 316px;
   width: 515px;
-  margin-bottom: 100px;
 }
 
+.oakley {
+  margin: 0px auto 0px;
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
 
 .description {
   position: relative;
@@ -209,6 +229,7 @@ border-radius: 50%;
   line-height: 1.15;
   text-align: center;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .section-subtitle {
@@ -217,6 +238,7 @@ border-radius: 50%;
   line-height: 34px;
   text-align: center;
   margin: 20px auto 0;
+  font-weight: normal;
 }
 
 .table {
@@ -296,10 +318,15 @@ border-radius: 50%;
 background: #1f1f1f;
 }
 
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
 .khan__container {
 width: 80%;
 display: block;
-margin: 100px auto;
+margin: auto;
 }
 
 .khan__autor {
@@ -336,16 +363,16 @@ font-weight: normal;
 }
 
 .khan__book-container {
-  justify-content: space-between;
   margin: 0 auto 0;
+  display: flex;
 }
 
 .khan__book-pic {
 width: 608px;
 height: 620px;
 object-fit: cover;
-top: 0;
-left: 0;
+object-position: top;
+margin-right: 48px;
 }
 
 .khan__buy-link {
@@ -414,23 +441,12 @@ left: 0;
 }
 
 .resources {
-
-}
-
-.resources__section-title {
-width: 60%;
 margin-top: 100px;
-margin-bottom: 20px;
-}
-
-.resources__section-subtitle {
-  width: 60%;
-  margin-bottom: 80px;
 }
 
 .resources__logo-zone {
 width: 1100px;
-margin: 0 auto 217px;
+margin: 80px auto 217px;
 }
 
 .resources__link {
