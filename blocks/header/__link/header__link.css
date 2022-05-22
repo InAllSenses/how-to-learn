@@ -4,10 +4,10 @@
   font-weight: normal;
   color: #2f80ed;
   z-index: 3;
+  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .header__link:hover{
   opacity: 50%;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 

@@ -3,9 +3,9 @@
   list-style: none;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .footer__column-link:hover {
   opacity: 50%;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }

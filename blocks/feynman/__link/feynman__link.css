@@ -9,12 +9,12 @@
   z-index: 3;
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 
 .feynman__link:hover {
   opacity: 50%;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 

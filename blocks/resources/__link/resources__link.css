@@ -1,6 +1,10 @@
 
 .resources__link {
-  list-style: none;
-  display: flex;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.resources__link:hover {
+  opacity: 50%;
 }
