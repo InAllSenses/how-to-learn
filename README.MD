@@ -1,9 +1,11 @@
-How to learn
+# Проект: How to learn
+
+-------------------
 
 Моя первая самостоятельная проектная работа на платформе Яндекс.Практикум по специальности веб-программирование.
 Представляет собой одностраничный сайт на котором присутствует разносторонняя информация о том как учиться, запоминать информацию и применять её в действии более продуктивно.
 
-Работа выполнена с помощью HTML и CSS
+## Работа выполнена с помощью HTML и CSS
 
 Содержит в себе:
 + заголовки разного уровня
@@ -23,18 +25,14 @@ How to learn
 3. Списка (table)
 4. Анимации (rotation)
 
-Код писала впрограмме VisualStudioCode
-https://code.visualstudio.com/
+[Код написан в программе **VisualStudioCode**](https://code.visualstudio.com/)
 
-Файловая структура проекта сделана с приминением Nested БЭМ
-https://ru.bem.info/methodology/filestructure/
+[Файловая структура проекта сделана с приминением **Nested БЭМ**](https://ru.bem.info/methodology/filestructure/)
 
-Видео добавлены через API YouTube конструктор
-https://developers.google.com/youtube/youtube_player_demo?hl=ru
+[Видео добавлены через API YouTube конструктор](https://developers.google.com/youtube/youtube_player_demo?hl=ru)
 
 
-
-Что можно улучшить:
+## Что можно улучшить:
 + Добавить обложку для видео <video poster="/images/example.gif">
 + Сделать форму через которую пользователи смогут отправить комментарий <form></form>
 + Добавить к ссылкам путь ведущий на другие страницы <a href="...">
